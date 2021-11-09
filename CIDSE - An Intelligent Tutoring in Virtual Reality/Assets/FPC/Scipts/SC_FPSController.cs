@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -50,7 +51,7 @@ public class SC_FPSController : MonoBehaviour
         {
             moveDirection.y = movementDirectionY;
         }
-
+        
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
         // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
         // as an acceleration (ms^-2)
@@ -69,6 +70,11 @@ public class SC_FPSController : MonoBehaviour
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+        }
+
+        if(Input.GetButton("SwitchScene") && canMove && characterController.isGrounded)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
         }
     }
 }
