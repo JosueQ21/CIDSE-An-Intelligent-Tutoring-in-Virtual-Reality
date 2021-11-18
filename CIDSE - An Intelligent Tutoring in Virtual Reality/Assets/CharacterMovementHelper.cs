@@ -15,6 +15,9 @@ public class CharacterMovementHelper : MonoBehaviour
         xRRig = GetComponent<XRRig>();
         characterController = GetComponent<CharacterController>();
         driver = GetComponent<CharacterControllerDriver>();
+
+        //Josue's stuff
+        transform.position = GameManager.Instance.SpawnLocation;
     }
 
     // Update is called once per frame

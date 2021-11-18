@@ -74,7 +74,8 @@ public class SC_FPSController : MonoBehaviour
 
         if(Input.GetButton("SwitchScene") && canMove && characterController.isGrounded)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+            GameManager.Instance.SpawnLocation.Set(-1, -1, -1);
+            GameManager.Instance.LoadGame(1);
         }
     }
 }
