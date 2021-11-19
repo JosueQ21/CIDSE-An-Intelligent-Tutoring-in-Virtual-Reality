@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Oculus/VR/Scenes/Classroom.unity
     guid: 2c0b6a5a833067845ad1b13ddcd6cf89
+  - enabled: 1
+    path: Assets/Scenes/computerscreen.unity
+    guid: 5cedb087934eaa24c94548d4f850ae43
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 41e0b8fc2975d2a4ea37b843570c80f4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 09b5af29ce8d00e4d855c535a1b095ff, type: 2}
