@@ -897,6 +897,33 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "TeacherActions",
+            "id": "efa2bae4-3f8c-40fc-a975-361b4a4af72e",
+            "actions": [
+                {
+                    "name": "StartVideo",
+                    "type": "Button",
+                    "id": "e546fb7b-9a0a-4ae5-b41f-23e7d2dbd283",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "98d30cc4-b882-43ed-9152-0ad539ee6730",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartVideo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
