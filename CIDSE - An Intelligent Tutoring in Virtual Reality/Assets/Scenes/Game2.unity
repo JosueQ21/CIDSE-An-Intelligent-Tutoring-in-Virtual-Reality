@@ -186,7 +186,7 @@ MonoBehaviour:
   branchLength: 5
   numBranchLength: 5
   doorPercent: 18
-  constructionDely: 0
+  constructionDely: 0.8
   generatedTiles: []
 --- !u!4 &550632658
 Transform:
