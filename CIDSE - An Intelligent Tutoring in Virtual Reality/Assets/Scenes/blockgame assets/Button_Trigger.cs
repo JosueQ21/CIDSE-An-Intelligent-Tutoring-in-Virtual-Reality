@@ -5,8 +5,9 @@ using System;
 
 public class Button_Trigger : MonoBehaviour
 {
-    public static event Action onButtonPressed;
     private Animator _buttonAnimator;
+    public GameObject TutorialWall;
+    private Animator _tutorialWall;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,13 @@ public class Button_Trigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         _buttonAnimator.SetTrigger("ButtonPressed");
-        onButtonPressed?.Invoke();
+        StartCoroutine(waiter());
+    }
+
+    private IEnumerator waiter()
+    {
+        yield return new WaitForSeconds(2);
+        _tutorialWall = TutorialWall.GetComponent<Animator>();
+        _tutorialWall.SetTrigger("wallToDrop");
     }
 }
