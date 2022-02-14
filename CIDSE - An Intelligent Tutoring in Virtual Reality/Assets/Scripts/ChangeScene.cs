@@ -21,7 +21,7 @@ public class ChangeScene : XRBaseInteractable
 
     private void StartPress(XRBaseInteractor interactor)
     {
-        GameManager.Instance.SpawnLocation.Set(-1, -1, 1);
+        //GameManager.Instance.SpawnLocation.Set(-1, -1, 1);
         GameManager.Instance.LoadGame(1);
     }
     
