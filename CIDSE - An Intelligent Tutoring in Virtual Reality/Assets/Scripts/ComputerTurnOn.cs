@@ -12,6 +12,7 @@ public class ComputerTurnOn : XRBaseInteractable
     protected override void Awake()
     {
         base.Awake();
+        screen.SetActive(false);
         onHoverEntered.AddListener(turnOn);
         onHoverExited.AddListener(exitComputer);
     }

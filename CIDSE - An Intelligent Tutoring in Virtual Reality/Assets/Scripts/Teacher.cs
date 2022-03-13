@@ -11,8 +11,9 @@ public class Teacher : XRBaseInteractable
     public GameObject player = null;
     public VideoPlayer videoPlayer;
     public GameObject text = null;
+    
 
-    private float distance;
+    public float distance = 2;
 
     protected override void Awake()
     {

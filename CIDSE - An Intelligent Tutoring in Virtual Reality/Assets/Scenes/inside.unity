@@ -368,17 +368,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3184aa00e5acbe84f939d977d6fc2e16, type: 3}
---- !u!114 &205528804 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1539482866443700711, guid: 3184aa00e5acbe84f939d977d6fc2e16, type: 3}
-  m_PrefabInstance: {fileID: 205528803}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &227270625 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4895497590064792, guid: 288b229db858c114299d1bf70ffc95cd, type: 3}
@@ -1832,7 +1821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d805a45da818f3f4a93a2e9ca9b76aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 205528804}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
