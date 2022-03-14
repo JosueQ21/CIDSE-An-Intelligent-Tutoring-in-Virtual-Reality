@@ -20,6 +20,6 @@ public class HallToClass : XRBaseInteractable
 
     private void StartPress(XRBaseInteractor interactor)
     {
-        SceneManager.LoadScene(4);
+        GameManager.Instance.LoadGame(2);
     }
 }

@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/inside.unity
     guid: 0624babf956215f4fb8019f628b2e34a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Oculus/VR/Scenes/Classroom.unity
     guid: 2c0b6a5a833067845ad1b13ddcd6cf89
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/computerscreen.unity
     guid: 5cedb087934eaa24c94548d4f850ae43
   - enabled: 1

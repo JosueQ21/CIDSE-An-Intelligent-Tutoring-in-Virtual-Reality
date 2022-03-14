@@ -18,7 +18,7 @@ public class ComputerTurnOn : XRBaseInteractable
     protected override void Awake()
     {
         reference.action.started += TurnOn;
-        screen.SetActive(false);
+        //screen.SetActive(false);
     }
 
     private void OnDestroy()
