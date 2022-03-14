@@ -25,7 +25,7 @@ public class ExitComputer : XRBaseInteractable
     {
         if (screen.activeSelf)
         {
-            screen.SetActive(false);
+           // screen.SetActive(false);
         }
     }
 }

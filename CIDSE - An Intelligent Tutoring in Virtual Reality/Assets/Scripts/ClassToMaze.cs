@@ -25,7 +25,7 @@ public class ClassToMaze : XRBaseInteractable
     {
         if (screen.activeSelf)
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(4);
         }
     }
     /*protected override void Awake()

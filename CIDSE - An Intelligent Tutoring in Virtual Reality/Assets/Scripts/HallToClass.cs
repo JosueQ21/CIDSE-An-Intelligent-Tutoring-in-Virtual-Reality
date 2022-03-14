@@ -13,13 +13,13 @@ public class HallToClass : XRBaseInteractable
         onHoverEntered.AddListener(StartPress);
     }
 
-    private void OnDestroy()
+    protected override void OnDestroy()
     {
         onHoverEntered.RemoveListener(StartPress);
     }
 
     private void StartPress(XRBaseInteractor interactor)
     {
-        GameManager.Instance.LoadGame(2);
+        SceneManager.LoadScene(2);
     }
 }

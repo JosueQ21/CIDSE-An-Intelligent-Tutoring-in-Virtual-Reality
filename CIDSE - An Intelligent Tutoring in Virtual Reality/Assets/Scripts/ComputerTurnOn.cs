@@ -21,7 +21,7 @@ public class ComputerTurnOn : XRBaseInteractable
         //screen.SetActive(false);
     }
 
-    private void OnDestroy()
+    protected override void OnDestroy()
     {
         reference.action.started -= TurnOn;
     }

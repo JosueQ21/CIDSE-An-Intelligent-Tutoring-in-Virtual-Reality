@@ -25,7 +25,7 @@ public class ClassToBlock : XRBaseInteractable
     {
         if (screen.activeSelf)
         {
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(3);
         }
     }
     /*
