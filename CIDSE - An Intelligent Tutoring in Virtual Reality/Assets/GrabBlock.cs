@@ -21,7 +21,7 @@ public class GrabBlock : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Block" && duplicate == false)
+        if ((other.gameObject.tag == "ifBlock" || other.gameObject.tag == "elseBlock") && duplicate == false)
         {
             duplicate = true;
             GameObject BlockDupe = Instantiate(other.gameObject);
