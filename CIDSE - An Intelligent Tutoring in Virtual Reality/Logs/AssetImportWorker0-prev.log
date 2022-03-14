@@ -15,12 +15,12 @@ C:/CSE485/CIDSE-An-Intelligent-Tutoring-in-Virtual-Reality/CIDSE - An Intelligen
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63771
+52719
 Successfully changed project path to: C:/CSE485/CIDSE-An-Intelligent-Tutoring-in-Virtual-Reality/CIDSE - An Intelligent Tutoring in Virtual Reality
 C:/CSE485/CIDSE-An-Intelligent-Tutoring-in-Virtual-Reality/CIDSE - An Intelligent Tutoring in Virtual Reality
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 170.89 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 1.40 ms.
+Refreshing native plugins compatible for Editor in 491.35 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 2.07 ms.
 Initialize engine version: 2021.1.22f1 (a137e5fb0427)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/CSE485/CIDSE-An-Intelligent-Tutoring-in-Virtual-Reality/CIDSE - An Intelligent Tutoring in Virtual Reality/Assets
@@ -36,130 +36,42 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001478 seconds.
+Registered in 0.001990 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 201.40 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 149.36 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.519 seconds
+- Completed reload, in  2.216 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2519ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (2216ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (767ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (636ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (412ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (372ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (202ms)
+				RefreshPlugins (149ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006419 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\CSE485\CIDSE-An-Intelligent-Tutoring-in-Virtual-Reality\CIDSE - An Intelligent Tutoring in Virtual Reality\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\CSE485\CIDSE-An-Intelligent-Tutoring-in-Virtual-Reality\CIDSE - An Intelligent Tutoring in Virtual Reality\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 166.33 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to register display lifecyle provider: [1]
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
-[XR] OVRP version 1.65.0
-Mono: successfully reloaded assembly
-- Completed reload, in  2.078 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2079ms)
-		BeginReloadAssembly (303ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1608ms)
-			LoadAssemblies (240ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (403ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (116ms)
-			SetupLoadedEditorAssemblies (750ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (166ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (473ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 2.00 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 4121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.7 MB.
-System memory in use after: 176.9 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4555.
-Total: 3.302200 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.107900 ms MarkObjects: 2.858600 ms  DeleteObjects: 0.106900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/inside.unity
-  artifactKey: Guid(0624babf956215f4fb8019f628b2e34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/inside.unity using Guid(0624babf956215f4fb8019f628b2e34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd75e8d5d86329ff0124f0ac17c2e66c') in 0.018854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.184035 seconds.
-  path: Assets/Scripts/HallToClass.cs
-  artifactKey: Guid(d805a45da818f3f4a93a2e9ca9b76aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HallToClass.cs using Guid(d805a45da818f3f4a93a2e9ca9b76aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ee60d03b44772d3b478f139e84e426') in 0.080282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 189.385501 seconds.
-  path: Assets/Scenes/inside.unity
-  artifactKey: Guid(0624babf956215f4fb8019f628b2e34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/inside.unity using Guid(0624babf956215f4fb8019f628b2e34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c436873949a1dad40dcfc7275d1e839') in 0.008319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 146.044738 seconds.
-  path: Assets/Scenes/inside.unity
-  artifactKey: Guid(0624babf956215f4fb8019f628b2e34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/inside.unity using Guid(0624babf956215f4fb8019f628b2e34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e39273fbb819af59dd3a3ca8a19b21') in 0.017835 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.008942 seconds.

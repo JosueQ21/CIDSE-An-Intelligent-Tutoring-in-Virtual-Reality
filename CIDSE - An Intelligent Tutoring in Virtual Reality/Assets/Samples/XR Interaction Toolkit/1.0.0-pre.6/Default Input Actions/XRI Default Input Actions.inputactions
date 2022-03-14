@@ -924,6 +924,87 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "BlockChoice",
+            "id": "4cc4e4ec-4872-4330-bfef-13ea84a2cdb2",
+            "actions": [
+                {
+                    "name": "Choose Game",
+                    "type": "Button",
+                    "id": "465a9e70-2465-4578-8f92-562e1930295b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "152d4dbb-ed52-4b16-9ff6-c44ed3a6c61a",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose Game",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Maze Choice",
+            "id": "f40647c1-67f4-4dea-9a85-75478318e7d3",
+            "actions": [
+                {
+                    "name": "Choose Game",
+                    "type": "Button",
+                    "id": "cc34ef0b-fab9-4d72-83b5-208d300a633d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "832f9e0c-4691-412a-ae7c-50f32d027ec8",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose Game",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Exit Choice",
+            "id": "3e690293-f27d-4254-b95d-71701041c24d",
+            "actions": [
+                {
+                    "name": "Choose Exit",
+                    "type": "Button",
+                    "id": "d90e3219-e378-4c07-bcfa-8e99615af273",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bae92713-f03e-40ac-8148-4b57021db6f4",
+                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose Exit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

@@ -8,7 +8,27 @@ using UnityEngine.SceneManagement;
 public class ClassToMaze : XRBaseInteractable
 {
     public InputActionReference reference = null;
+    public GameObject screen = null;
+
     protected override void Awake()
+    {
+        base.Awake();
+        reference.action.started += SelectGame;
+    }
+
+    private void OnDestroy()
+    {
+        reference.action.started -= SelectGame;
+    }
+
+    private void SelectGame(InputAction.CallbackContext context)
+    {
+        if (screen.activeSelf)
+        {
+            SceneManager.LoadScene(6);
+        }
+    }
+    /*protected override void Awake()
     {
         base.Awake();
         onHoverEntered.AddListener(selectGame);
@@ -37,5 +57,5 @@ public class ClassToMaze : XRBaseInteractable
     {
         GameManager.Instance.LoadGame(6);
     }
-
+    */
 }

@@ -13,7 +13,8 @@ public class Teacher : XRBaseInteractable
     public GameObject text = null;
     
 
-    public float distance = 2;
+    private float distance;
+    public float accDistance = 2;
 
     protected override void Awake()
     {
@@ -28,10 +29,10 @@ public class Teacher : XRBaseInteractable
     private void Update()
     {
         distance = Vector3.Distance(gameObject.transform.position, player.transform.position);
-        if(distance < 1)
+        if(distance < accDistance)
         {
             text.SetActive(true);
-            text.transform.LookAt(player.transform);
+            //text.transform.LookAt(player.transform);
         }
         else
         {
@@ -42,7 +43,7 @@ public class Teacher : XRBaseInteractable
     private void SelectPlay(InputAction.CallbackContext context)
     {
         distance = Vector3.Distance(gameObject.transform.position, player.transform.position);
-        if(distance < 1)
+        if(distance < accDistance)
         {
             videoPlayer.Play();
         }

@@ -8,6 +8,27 @@ using UnityEngine.SceneManagement;
 public class ClassToBlock : XRBaseInteractable
 {
     public InputActionReference reference = null;
+    public GameObject screen = null;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        reference.action.started += SelectGame;
+    }
+
+    private void OnDestroy()
+    {
+        reference.action.started -= SelectGame;
+    }
+
+    private void SelectGame(InputAction.CallbackContext context)
+    {
+        if (screen.activeSelf)
+        {
+            SceneManager.LoadScene(5);
+        }
+    }
+    /*
     protected override void Awake()
     {
         base.Awake();
@@ -37,5 +58,5 @@ public class ClassToBlock : XRBaseInteractable
     {
         GameManager.Instance.LoadGame(5);
     }
-
+    */
 }
