@@ -292,6 +292,8 @@ MonoBehaviour:
       m_Calls: []
   reference: {fileID: -2843324719298702530, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   screen: {fileID: 27479471}
+  player: {fileID: 899481139}
+  accDistance: 2
 --- !u!1 &27479469 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 565265773167443533, guid: 0227edeb8df40a3469061aff0f2d64bb, type: 3}
@@ -368,6 +370,8 @@ MonoBehaviour:
       m_Calls: []
   reference: {fileID: -9166854297775643301, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   screen: {fileID: 27479471}
+  player: {fileID: 899481139}
+  accDistance: 2
 --- !u!1 &27479471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4009465757605893582, guid: 0227edeb8df40a3469061aff0f2d64bb, type: 3}
