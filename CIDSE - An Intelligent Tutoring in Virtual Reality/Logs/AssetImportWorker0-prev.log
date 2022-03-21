@@ -23,25 +23,25 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65437
+53441
 Successfully changed project path to: /Users/macmini130/Documents/GitHub/CIDSE-An-Intelligent-Tutoring-in-Virtual-Reality/CIDSE - An Intelligent Tutoring in Virtual Reality
 /Users/macmini130/Documents/GitHub/CIDSE-An-Intelligent-Tutoring-in-Virtual-Reality/CIDSE - An Intelligent Tutoring in Virtual Reality
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 154.60 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 11.13 ms.
+Refreshing native plugins compatible for Editor in 247.30 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 121.81 ms.
 Initialize engine version: 2021.1.22f1 (a137e5fb0427)
 [Subsystems] Discovering subsystems at path /Volumes/MyPassport/unity/2021.1.22f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/macmini130/Documents/GitHub/CIDSE-An-Intelligent-Tutoring-in-Virtual-Reality/CIDSE - An Intelligent Tutoring in Virtual Reality/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2022-02-20 18:51:22.304 Unity[16646:1376671] (null) preferred device: Apple M1 (high power)
-2022-02-20 18:51:22.304 Unity[16646:1376671] Metal devices available: 1
-2022-02-20 18:51:22.304 Unity[16646:1376671] 0: Apple M1 (high power)
-2022-02-20 18:51:22.304 Unity[16646:1376671] Using device Apple M1 (high power)
+2022-03-21 00:08:45.581 Unity[93743:14232082] (null) preferred device: Apple M1 (high power)
+2022-03-21 00:08:45.581 Unity[93743:14232082] Metal devices available: 1
+2022-03-21 00:08:45.581 Unity[93743:14232082] 0: Apple M1 (high power)
+2022-03-21 00:08:45.581 Unity[93743:14232082] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Volumes/MyPassport/unity/2021.1.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Volumes/MyPassport/unity/2021.1.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Volumes/MyPassport/unity/2021.1.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56646
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56743
 Begin MonoManager ReloadAssembly
